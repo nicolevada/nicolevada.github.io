@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Nicole Vada's Bio - Page 2</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Nicole Vada's Bio - Page 2</h1>
+  </header>
+
+  <div class="container">
+
+    <section id="main-bio">
+      <h2>Experience</h2>
+      <p>Nicole Vada has worked as a show runner, writer, and actor in various productions, including:</p>
+      <ul>
+        <li>"Pierre Uncensored" (LOL Network) - Script Supervisor and Actor</li>
+        <li>"My Big Fat Fabulous Life" (TLC) - Story Producer</li>
+        <li>"The Real Housewives of Atlanta" (Bravo) - Associate Producer</li>
+      </ul>
+      <p>She has also written and produced her own content, including the web series "Black Girls Guide to Fertility".</p>
+    </section>
+
+    <section id="bio-image">
+      <figure id="figure">
+        <img src="https://podcasts.apple.com/us/podcast/essential-times-news/id1526419976?i=1000500400424">
+        <figcaption id="bio-name">Nicole Vada</figcaption>
+      </figure>
+    </section>
+
+  </div>
+
+</body>
+
+</html>
