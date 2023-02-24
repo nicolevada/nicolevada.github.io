@@ -22,17 +22,32 @@
         <li>"My Big Fat Fabulous Life" (TLC) - Story Producer</li>
         <li>"The Real Housewives of Atlanta" (Bravo) - Associate Producer</li>
       </ul>
-      <p>She has also written and produced her own content, including the web series "Black Girls Guide to Fertility".</p>
+      <p>She has also written and produced her own content, Kulture and Swiper's".</p>
     </section>
 
     <section id="bio-image">
       <figure id="figure">
-        <img src="https://pbs.twimg.com/profile_images/1293245786471205376/WQ8KsW23_400x400.jpg" alt="Nicole Vada">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpW5QVflDvyRzpy9UtHvWWnu3D0I-cxpYf9g&usqp=CAU" alt="Nicole Vada">
         <figcaption id="bio-name">Nicole Vada</figcaption>
       </figure>
     </section>
 
   </div>
+
+  <!-- Add the following script tag for the podcast -->
+  <script>
+    let podcastAudio = new Audio("https://example.com/podcast.mp3");
+    let playButton = document.getElementById("playButton");
+    let podcastPlayer = document.getElementById("podcast");
+
+    playButton.addEventListener("click", function() {
+      if (podcastAudio.paused) {
+        podcastAudio.play();
+      } else {
+        podcastAudio.pause();
+      }
+    });
+  </script>
 
 </body>
 
