@@ -34,21 +34,6 @@
 
   </div>
 
-  <!-- Add the following script tag for the podcast -->
-  <script>
-    let podcastAudio = new Audio("https://example.com/podcast.mp3");
-    let playButton = document.getElementById("playButton");
-    let podcastPlayer = document.getElementById("podcast");
-
-    playButton.addEventListener("click", function() {
-      if (podcastAudio.paused) {
-        podcastAudio.play();
-      } else {
-        podcastAudio.pause();
-      }
-    });
-  </script>
-
 </body>
 
 </html>
